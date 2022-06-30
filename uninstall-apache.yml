@@ -7,7 +7,7 @@
       - apache2
       - php
   tasks:
-    - name: Uninstall Apache server
+    - name: Uninstall Apache server from all server
       apt:
         name: "{{ apps }}"
         state: absent
